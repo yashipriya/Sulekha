@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+    <listener class-name="com.houzify.baselib.HouzifyTestngListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.houzify.scripts.TutorialTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setobjects"/>
+          <include name="testTutorial"/>
+        </methods>
+      </class> <!-- com.houzify.scripts.TutorialTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

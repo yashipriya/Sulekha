@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80262" started-at="2016-03-10T09:21:16Z" finished-at="2016-03-10T09:22:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80262" started-at="2016-03-10T09:21:16Z" finished-at="2016-03-10T09:22:36Z">
+      <class name="com.test.scripts.BusinessProfileTest">
+        <test-method status="PASS" signature="setobjects()[pri:0, instance:com.test.scripts.BusinessProfileTest@2ef5e5e3]" name="setobjects" is-config="true" duration-ms="16" started-at="2016-03-10T14:51:16Z" finished-at="2016-03-10T14:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setobjects -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.scripts.BusinessProfileTest@2ef5e5e3]" name="setUp" is-config="true" duration-ms="18089" started-at="2016-03-10T14:51:16Z" finished-at="2016-03-10T14:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBusinessProfilePage()[pri:0, instance:com.test.scripts.BusinessProfileTest@2ef5e5e3]" name="testBusinessProfilePage" duration-ms="60593" started-at="2016-03-10T14:51:34Z" finished-at="2016-03-10T14:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBusinessProfilePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.scripts.BusinessProfileTest@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="1546" started-at="2016-03-10T14:52:35Z" finished-at="2016-03-10T14:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.scripts.BusinessProfileTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
